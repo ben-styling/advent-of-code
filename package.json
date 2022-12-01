@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "deno test"
+  },
+  "author": "Ben Sterling",
+  "license": "ISC"
+}
