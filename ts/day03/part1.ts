@@ -26,4 +26,4 @@ export const solve = (input: string) => {
     .reduce((acc, priority) => acc + priority, 0);
 };
 
-console.log(solve(await Deno.readTextFile("day03/input.txt")));
+// console.log(solve(await Deno.readTextFile("day03/input.txt")));
