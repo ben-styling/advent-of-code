@@ -1,4 +1,4 @@
-const createStackArray = (input: string[]) => {
+export const createStackArray = (input: string[]) => {
   const stacks: string[][] = new Array(Math.floor(input[0].length / 3)).fill(
     []
   );
@@ -58,4 +58,4 @@ export const solve = (input: string) => {
   return result;
 };
 
-console.log(solve(await Deno.readTextFile("day05/input.txt")));
+// console.log(solve(await Deno.readTextFile("day05/input.txt")));
