@@ -42,7 +42,7 @@ const getDirSize = (obj: Record<string, any>, size: number) => {
   return size;
 };
 
-const augmentWithSizes = (obj: Record<string, any>) => {
+export const augmentWithSizes = (obj: Record<string, any>) => {
   for (const key in obj) {
     if (!Object.prototype.hasOwnProperty.call(obj, key)) continue;
     const element = obj[key];
@@ -83,4 +83,4 @@ export const solve = (input: string) => {
   return totalSize;
 };
 
-console.log(solve(await Deno.readTextFile("day07/input.txt")));
+// console.log(solve(await Deno.readTextFile("day07/input.txt")));
